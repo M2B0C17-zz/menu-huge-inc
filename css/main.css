@@ -177,3 +177,7 @@ nav.header-in{
 .solid #toggle .menu:before{
 	background-color: #fff;
 }
+
+nav .solid #logo .logo{
+	background-image: url(../img/icon/logo_white.jpg);
+}
