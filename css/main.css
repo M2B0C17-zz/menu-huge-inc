@@ -13,7 +13,7 @@ nav {
     transition: all 0.6s cubic-bezier(0.7, 0.01, 0.3, 1);
 }
 
-nav .nav-background{
+nav.nav-background{
 	top: 0px;
 	opacity: 0;
 	width: : 100%;
@@ -117,7 +117,7 @@ nav ul li a:hover{
 	transition: all 0.3s;
 }
 
-.menu:before, 
+.menu:before,
 .menu:after{
 	content: '';
 	display: block;
@@ -171,7 +171,7 @@ nav.header-in{
 }
 
 .solid #toggle .menu:after{
-	background-color: #fff; 
+	background-color: #fff;
 }
 
 .solid #toggle .menu:before{
@@ -180,4 +180,8 @@ nav.header-in{
 
 nav .solid #logo .logo{
 	background-image: url(../img/icon/logo_white.jpg);
+}
+
+.overflow-hidden{
+  overflow: hidden;
 }
